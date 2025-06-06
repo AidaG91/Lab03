@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+
+    <div id="modal" class="modal-overlay">
+      <div class="modalcontainer">
+        <h1>Entradas próximamente a la venta</h1>
+        <p>
+          La venta de entradas aún no está disponible. Síguenos en nuestras
+          redes sociales para saber la fecha de lanzamiento y otras novedades.
+        </p>
+        <a href="#" class="close-button">Cerrar</a>
+      </div>
+    </div>
+
     <header class="header" class="flex">
       <div class="logo">
         <img src="./images/logoironmusic.png.png" alt="Logo" />
@@ -14,9 +26,9 @@
       <nav class="nav">
         <ul>
           <li><a href="#inicio">Inicio</a></li>
-          <li><a href="artistas">Artistas</a></li>
-          <li><a href="conciertos">Conciertos</a></li>
-          <li><a href="contacto">Contacto</a></li>
+          <li><a href="#artistas">Artistas</a></li>
+          <li><a href="#conciertos">Conciertos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
     </header>
@@ -24,7 +36,7 @@
     <main class="main">
       <section id="hero" class="hero-image">
         <h1>Iron Music</h1>
-        <button class="hero-button">Comprar entradas</button>
+        <a href="#modal" class="hero-button">Comprar entradas</a>
       </section>
 
       <section id="artistas" class="section">
