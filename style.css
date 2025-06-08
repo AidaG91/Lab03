@@ -137,10 +137,29 @@ body {
     font-size: 2rem;
 }
 
+.section h3 {
+    color: #141313;
+    text-align: center;
+    font-size: 1.3rem;
+}
 .section p {
     color: black;
     font-size: 1em;
     padding: 1rem 2rem;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    background-color: #ebbf4669;
+    padding: 2rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(243, 208, 8, 0.938);
 }
 
 .concert-table {
@@ -205,6 +224,10 @@ body {
 
 .hero-button:hover {
     background-color: #ebca5f;
+}
+
+.hero-button:active {
+    color: blue;
 }
 
 .modalcontainer {
@@ -282,13 +305,17 @@ body {
     box-shadow: 0 4px 10px #f1bc0e;
 }
 
+.close-button:active {
+    color: blue;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
         transform: translateY(20px);
     }
     to {
-        opacity: 1;
+        opacity: 2;
         transform: translateY(0);
     }
 }
